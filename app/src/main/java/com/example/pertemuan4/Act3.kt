@@ -3,6 +3,7 @@ package com.example.pertemuan4
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -91,4 +92,10 @@ fun ActivitasPertama(modifier: Modifier) {
 
         }
     }
+}
+
+private fun ColumnScope.stringResource(id: String): String {
+
+
+    return TODO("Provide the return value")
 }
